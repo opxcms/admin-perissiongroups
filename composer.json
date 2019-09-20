@@ -1,0 +1,40 @@
+{
+  "name": "opxcms/admin-permissiongroups",
+  "description": "OpxCMS admin permission groups module.",
+  "type": "library",
+  "keywords": [
+    "opxcms",
+    "admin",
+    "permission groups",
+    "module"
+  ],
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/opxcms/admin-permissiongroups/issues",
+    "source": "https://github.com/opxcms/admin-permissiongroups"
+  },
+  "authors": [
+    {
+      "name": "Lozovoy Vyacheslav",
+      "email": "opxcms@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "opxcms/opx-foundation": "^1.0.8"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Modules\\Admin\\PermissionGroups\\": "src/"
+    }
+  },
+  "extra": {
+    "opxcms" : {
+      "module": "Modules\\Admin\\PermissionGroups\\PermissionGroups"
+    }
+  },
+  "minimum-stability": "dev"
+}
